@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-08-28T17:08:31Z" name="Suite" finished-at="2019-08-28T17:10:44Z" duration-ms="132570">
+    <groups>
+    </groups>
+    <test started-at="2019-08-28T17:08:31Z" name="Test" finished-at="2019-08-28T17:10:44Z" duration-ms="132570">
+      <class name="practice.AppiumFramework.ApiDemoTest">
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:practice.AppiumFramework.ApiDemoTest@3aefe5e5]" started-at="2019-08-28T17:09:12Z" name="apiDemo" data-provider="InputData" finished-at="2019-08-28T17:09:43Z" duration-ms="31113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Subrat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:practice.AppiumFramework.ApiDemoTest@3aefe5e5]" started-at="2019-08-28T17:09:43Z" name="apiDemo" data-provider="InputData" finished-at="2019-08-28T17:10:13Z" duration-ms="29442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[!@#$$%^&]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:practice.AppiumFramework.ApiDemoTest@3aefe5e5]" started-at="2019-08-28T17:10:13Z" name="apiDemo" data-provider="InputData" finished-at="2019-08-28T17:10:44Z" duration-ms="30622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Awqe23145!@#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- practice.AppiumFramework.ApiDemoTest -->
+      <class name="practice.AppiumFramework.ecommerce_tc_4">
+        <test-method is-config="true" signature="killAllNodes()[pri:0, instance:practice.AppiumFramework.ecommerce_tc_4@1184ab05]" started-at="2019-08-28T17:08:31Z" name="killAllNodes" finished-at="2019-08-28T17:08:34Z" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+        <test-method signature="totalValidation()[pri:0, instance:practice.AppiumFramework.ecommerce_tc_4@1184ab05]" started-at="2019-08-28T17:08:34Z" name="totalValidation" finished-at="2019-08-28T17:09:12Z" duration-ms="38300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalValidation -->
+      </class> <!-- practice.AppiumFramework.ecommerce_tc_4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

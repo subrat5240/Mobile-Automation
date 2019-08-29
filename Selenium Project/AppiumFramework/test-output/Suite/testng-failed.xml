@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="resources.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="practice.AppiumFramework.ecommerce_tc_4">
+        <methods>
+          <include name="killAllNodes"/>
+          <include name="totalValidation"/>
+        </methods>
+      </class> <!-- practice.AppiumFramework.ecommerce_tc_4 -->
+      <class name="practice.AppiumFramework.ApiDemoTest">
+        <methods>
+          <include name="apiDemo" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- practice.AppiumFramework.ApiDemoTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,22 @@
+package practice.AppiumFramework;
+
+import org.testng.annotations.DataProvider;
+
+public class TestData {
+	
+	@DataProvider(name="InputData")
+	public void getDataforEditField()
+	{
+		Object[][] obj=new Object[][]
+				{
+			
+			{"Subrat"},{"!@#$$%^&"},{"Awqe23145!@#"}
+			
+				};
+		
+	
+	}
+	
+	
+
+}
